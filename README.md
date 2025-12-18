@@ -149,5 +149,7 @@ Stores aggregated daily statistics:
 ├── docker-compose.yaml              # Конфигурация сервисов (Airflow, Kafka, Postgres)
 ├── dockerfile                       # Образ с предустановленными зависимостями
 ├── requirements.txt                 # Список Python-библиотек
-└── README.md
+├── README.md
+└── report/
+    └── report.pdf               # Финальный отчёт по проекту
 ```
