@@ -133,7 +133,8 @@ Stores aggregated daily statistics:
 ## Project Structure
 
 ```text
-.
+Data-Collection-and-Preparation-Final
+│
 ├── airflow/
 │   └── dags/
 │       ├── job1_ingestion_dag.py    # Оркестрация сбора данных из API в Kafka
