@@ -28,7 +28,7 @@ Developed as a final assignment for the **Data Collection & Preparation** course
 ### 1. Launch the Pipeline
 Run the following command to build and start all services (Kafka, Postgres, Airflow) in the background:
 ```bash
-docker compose up -d --build
+docker compose up -d 
 ```
 
 ### 2. Access Airflow
