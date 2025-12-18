@@ -14,7 +14,7 @@ default_args = {
 with DAG(
     dag_id = 'job1_ingestion',
     default_args = default_args,
-    schedule_interval = None,
+    schedule_interval='*/5 * * * *',
     start_date = datetime(2025,12,16),
     catchup=False,
     max_active_runs=1

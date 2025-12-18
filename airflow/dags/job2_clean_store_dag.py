@@ -1,7 +1,8 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from src.job2_cleaner import data_cleaning,sql_write
+from src.job2_cleaner import data_cleaning
+from src.db_utils import sql_write
 import logging
 
 
